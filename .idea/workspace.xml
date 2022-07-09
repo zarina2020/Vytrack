@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb635949-698d-4cb6-a1d4-16b34aef126a" name="Changes" comment="Added Pages and locators, Login Util, config page">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runner/FailedTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/RefreshButtonStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/refreshButton.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runner/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BrowserUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,10 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/rozanussipbek/IdeaProjects/SeleniumPracticeProject/Vytrack/src/test/java/com/vytrack/utilities&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
@@ -59,6 +65,28 @@
       <recent name="com.vytrack.stepDefs" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vytrack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vytrack.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vytrack.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.vytrack.runner.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukesRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,6 +98,7 @@
       <workItem from="1657059176517" duration="1538000" />
       <workItem from="1657074669992" duration="8319000" />
       <workItem from="1657197235212" duration="1486000" />
+      <workItem from="1657325333394" duration="4876000" />
     </task>
     <task id="LOCAL-00001" summary="Added Pages and locators, Login Util, config page">
       <created>1657105518152</created>

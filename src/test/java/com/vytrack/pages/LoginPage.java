@@ -23,7 +23,10 @@ public class LoginPage {
     @FindBy(id = "_submit")
     public WebElement loginBtn;
 
+    public void login(String inputUsername, String inputPassword) {
+        username.sendKeys(inputUsername);
+        password.sendKeys(inputPassword);
+        loginBtn.click();
 
-
-
+    }
 }
