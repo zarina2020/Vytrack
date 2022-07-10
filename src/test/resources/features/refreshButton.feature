@@ -1,4 +1,4 @@
-@wip
+@wip1
 Feature: User should be able to click refresh button
 
   Scenario: User clicks refresh button

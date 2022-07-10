@@ -4,7 +4,7 @@ import com.vytrack.pages.LoginPage;
 
 public class VytrackLogin {
 
-public static void VytrackLogin(){
+public static void vytrackLogin(){
 
     Driver.getDriver().get(ConfigurationReader.getProperty("vytrack"));
 

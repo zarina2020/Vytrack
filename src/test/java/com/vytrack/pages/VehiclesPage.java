@@ -20,7 +20,7 @@ public class VehiclesPage {
     @FindBy(xpath = "//a[@title='Reset']")
     public WebElement resetIcon;
 
-    @FindBy(xpath = "//div[@class='column-manager dropdown']")
+    @FindBy(xpath = "//a[@title='Grid Settings']")
     public WebElement gridSettingsIcon;
 
 

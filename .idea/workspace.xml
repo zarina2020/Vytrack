@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb635949-698d-4cb6-a1d4-16b34aef126a" name="Changes" comment="Added Pages and locators, Login Util, config page">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/RefreshButtonStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/refreshButton.feature" afterDir="false" />
+    <list default="true" id="bb635949-698d-4cb6-a1d4-16b34aef126a" name="Changes" comment="Added hooks, failed runner class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/GridSettingsBtnLocation_Roza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/VehiclesPageLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/gridSettingsBtnLocation_roza.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runner/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/VehiclesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/VehiclesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/VytrackLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/VytrackLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/refreshButton.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/refreshButton.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +53,15 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/rozanussipbek/IdeaProjects/SeleniumPracticeProject/Vytrack/src/test/java/com/vytrack/utilities&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/com/vytrack/utilities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/features" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.vytrack.runner" />
@@ -98,7 +101,7 @@
       <workItem from="1657059176517" duration="1538000" />
       <workItem from="1657074669992" duration="8319000" />
       <workItem from="1657197235212" duration="1486000" />
-      <workItem from="1657325333394" duration="4876000" />
+      <workItem from="1657484873132" duration="2441000" />
     </task>
     <task id="LOCAL-00001" summary="Added Pages and locators, Login Util, config page">
       <created>1657105518152</created>
