@@ -3,8 +3,6 @@ package com.vytrack.stepDefs;
 import com.vytrack.pages.BasePage;
 import com.vytrack.pages.VehiclesPage;
 import com.vytrack.utilities.Driver;
-import com.vytrack.utilities.VehiclesPageLogin;
-import com.vytrack.utilities.VytrackLogin;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -19,7 +17,7 @@ public class GridSettingsBtnLocation_Roza {
 
     @Given("User is on the Vehicles page,")
     public void user_is_on_the_vehicles_page() {
-        VehiclesPageLogin.vehiclesPageLogin();
+        vehiclesPage.vehiclesPageLogin("driver","driverPassword");
 
     }
     @When("User should see Grid Settings on the right side of the Reset Button")
