@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb635949-698d-4cb6-a1d4-16b34aef126a" name="Changes" comment="Added hooks, failed runner class">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/GridSettingsBtnLocation_Roza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/VehiclesPageLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/gridSettingsBtnLocation_roza.feature" afterDir="false" />
+    <list default="true" id="bb635949-698d-4cb6-a1d4-16b34aef126a" name="Changes" comment="Added new util class to directly login to Vehicles page and added my part">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/HoverOverUtilClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/VehiclesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/VehiclesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runner/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/GridSettingsBtnLocation_Roza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/GridSettingsBtnLocation_Roza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/VytrackLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/VytrackLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/RefreshButtonStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/RefreshButtonStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/zarina_StepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/zarina_StepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/VehiclesPageLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/VytrackLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/gridSettingsBtnLocation_roza.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/gridSettingsBtnLocation_roza.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/refreshButton.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/refreshButton.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="roza" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,7 +72,27 @@
       <recent name="com.vytrack.stepDefs" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration name="Scenario: On Vehicles Page a User should see Grid Settings on the right side of the Reset Button" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/gridSettingsBtnLocation_roza.feature" />
+      <option name="GLUE" value="com.vytrack.stepDefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Vytrack" />
+      <option name="NAME_FILTER" value="^On Vehicles Page a User should see Grid Settings on the right side of the Reset Button$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^On Vehicles Page a User should see Grid Settings on the right side of the Reset Button$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: On Vehicles Page a User should see Grid Settings on the right side of the Reset Button" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vytrack" />
       <extension name="coverage">
@@ -87,6 +111,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: On Vehicles Page a User should see Grid Settings on the right side of the Reset Button" />
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -102,6 +130,8 @@
       <workItem from="1657074669992" duration="8319000" />
       <workItem from="1657197235212" duration="1486000" />
       <workItem from="1657484873132" duration="2441000" />
+      <workItem from="1657581167425" duration="3811000" />
+      <workItem from="1657710984363" duration="3575000" />
     </task>
     <task id="LOCAL-00001" summary="Added Pages and locators, Login Util, config page">
       <created>1657105518152</created>
@@ -127,7 +157,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="roza" />
                       </list>
                     </value>
                   </entry>
