@@ -10,7 +10,7 @@ public class HoverOverUtilClass {
 
         Actions actions = new Actions(Driver.getDriver());
 
-        actions.moveToElement(target).perform();
+        actions.moveToElement(target).build().perform();
 
     }
 }

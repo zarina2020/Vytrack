@@ -4,7 +4,7 @@ import com.vytrack.pages.VehiclesPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
-public class zarina_StepDefinition {
+public class zarina_StepDefs {
     VehiclesPage vehiclesPage = new VehiclesPage();
     @Given("User on the \"Vehicles\"page")
     public void user_on_the_vehicles_page() {
