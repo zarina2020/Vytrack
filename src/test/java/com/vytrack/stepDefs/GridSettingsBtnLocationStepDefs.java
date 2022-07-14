@@ -1,17 +1,15 @@
 package com.vytrack.stepDefs;
 
-import com.vytrack.pages.BasePage;
 import com.vytrack.pages.VehiclesPage;
 import com.vytrack.utilities.Driver;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class GridSettingsBtnLocation_Roza {
+public class GridSettingsBtnLocationStepDefs {
 
     VehiclesPage vehiclesPage = new VehiclesPage();
 
@@ -32,6 +30,10 @@ public class GridSettingsBtnLocation_Roza {
         Point gridSet = vehiclesPage.gridSettingsIcon.getLocation();
 
         Assert.assertTrue(reset.getX() < gridSet.getX());
+
+        System.out.println("helllo");
+
+
 
 
     }

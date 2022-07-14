@@ -4,6 +4,7 @@ import com.vytrack.utilities.Driver;
 import com.vytrack.utilities.HoverOverUtilClass;
 import org.junit.Test;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -33,7 +34,7 @@ public class VehiclesPage {
 
         loginPage.vytrackLogin(username, password);
 
-        basePage.fleetDropDown.click();
+        HoverOverUtilClass.hoverOver(basePage.fleetDropDown);
         basePage.vehicles.click();
 
     }

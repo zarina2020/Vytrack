@@ -14,16 +14,16 @@ public class LoginPage {
     }
 
     @FindBy(id = "prependedInput")
-    public WebElement username;
+    private WebElement username;
 
     @FindBy(id = "prependedInput2")
-    public WebElement password;
+    private WebElement password;
 
     @FindBy(className = "custom-checkbox__text")
-    public WebElement rememberMeCheckBox;
+    private WebElement rememberMeCheckBox;
 
     @FindBy(id = "_submit")
-    public WebElement loginBtn;
+    private WebElement loginBtn;
 
     public void vytrackLogin(String userName, String passWord) {
         Driver.getDriver().get(ConfigurationReader.getProperty("vytrack"));

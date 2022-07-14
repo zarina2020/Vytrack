@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb635949-698d-4cb6-a1d4-16b34aef126a" name="Changes" comment="Added new util class to directly login to Vehicles page and added my part">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/HoverOverUtilClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/VehiclesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/VehiclesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runner/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/GridSettingsBtnLocation_Roza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/GridSettingsBtnLocation_Roza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/RefreshButtonStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/RefreshButtonStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/zarina_StepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/stepDefs/zarina_StepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/VehiclesPageLogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/VytrackLogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/gridSettingsBtnLocation_roza.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/gridSettingsBtnLocation_roza.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/refreshButton.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/refreshButton.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +118,8 @@
       <workItem from="1657197235212" duration="1486000" />
       <workItem from="1657484873132" duration="2441000" />
       <workItem from="1657581167425" duration="3811000" />
-      <workItem from="1657710984363" duration="3575000" />
+      <workItem from="1657710984363" duration="7571000" />
+      <workItem from="1657804344411" duration="4638000" />
     </task>
     <task id="LOCAL-00001" summary="Added Pages and locators, Login Util, config page">
       <created>1657105518152</created>
