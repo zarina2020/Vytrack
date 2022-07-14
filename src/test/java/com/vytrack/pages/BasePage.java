@@ -31,8 +31,8 @@ public class BasePage {
     @FindBy(xpath = "(//span[@class='title title-level-1'])[1]")
     public WebElement fleetDropDown;
 
-    @FindBy(xpath = "(//li[@class='dropdown dropdown-level-1'])[1]//li//span[@class='title title-level-2']")
-    public List<WebElement> fleetDropDownList;
+    @FindBy(xpath = "//span[.='Vehicles']")
+    public WebElement vehicles;
 
 
 

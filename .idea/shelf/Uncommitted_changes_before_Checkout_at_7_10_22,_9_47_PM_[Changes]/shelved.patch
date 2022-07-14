@@ -1,0 +1,17 @@
+Index: src/test/java/com/vytrack/stepDefs/GridSettingsBtnLocation_Roza.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.vytrack.stepDefs;\n\nimport com.vytrack.pages.BasePage;\nimport com.vytrack.pages.VehiclesPage;\nimport com.vytrack.utilities.Driver;\nimport com.vytrack.utilities.VehiclesPageLogin;\nimport com.vytrack.utilities.VytrackLogin;\nimport io.cucumber.java.en.Given;\nimport io.cucumber.java.en.Then;\nimport io.cucumber.java.en.When;\nimport org.junit.Assert;\nimport org.openqa.selenium.Point;\nimport org.openqa.selenium.support.ui.ExpectedConditions;\nimport org.openqa.selenium.support.ui.WebDriverWait;\n\npublic class GridSettingsBtnLocation_Roza {\n\n    VehiclesPage vehiclesPage = new VehiclesPage();\n\n    @Given(\"User is on the Vehicles page,\")\n    public void user_is_on_the_vehicles_page() {\n        VehiclesPageLogin.vehiclesPageLogin();\n\n    }\n    @When(\"User should see Grid Settings on the right side of the Reset Button\")\n    public void user_should_see_grid_settings_on_the_right_side_of_the_reset_button() {\n\n        WebDriverWait wait = new WebDriverWait(Driver.getDriver(),20);\n\n        wait.until(ExpectedConditions.visibilityOf(vehiclesPage.resetIcon));\n        Point reset = vehiclesPage.resetIcon.getLocation();\n\n        wait.until(ExpectedConditions.visibilityOf(vehiclesPage.gridSettingsIcon));\n        Point gridSet = vehiclesPage.gridSettingsIcon.getLocation();\n\n        Assert.assertTrue(reset.getX() < gridSet.getX());\n\n\n    }\n\n\n}\n
+===================================================================
+diff --git a/src/test/java/com/vytrack/stepDefs/GridSettingsBtnLocation_Roza.java b/src/test/java/com/vytrack/stepDefs/GridSettingsBtnLocation_Roza.java
+--- a/src/test/java/com/vytrack/stepDefs/GridSettingsBtnLocation_Roza.java	
++++ b/src/test/java/com/vytrack/stepDefs/GridSettingsBtnLocation_Roza.java	
+@@ -33,7 +33,7 @@
+         wait.until(ExpectedConditions.visibilityOf(vehiclesPage.gridSettingsIcon));
+         Point gridSet = vehiclesPage.gridSettingsIcon.getLocation();
+ 
+-        Assert.assertTrue(reset.getX() < gridSet.getX());
++        Assert.assertTrue(reset.getX() < gridSet.getX() && reset.getY() == gridSet.getY());
+ 
+ 
+     }
