@@ -1,0 +1,72 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"bb635949-698d-4cb6-a1d4-16b34aef126a\" name=\"Changes\" comment=\"Added new util class to directly login to Vehicles page and added my part\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2BXj9LWgNXIiB6oqS8HTuiY9kyQ\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"showLibraryContents\" value=\"true\" />\n    <option name=\"showVisibilityIcons\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Users/rozanussipbek/IdeaProjects/SeleniumPracticeProject/Vytrack/src/test/java/com/vytrack/utilities&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/test/java/com/vytrack/utilities\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/test/resources/features\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"com.vytrack.runner\" />\n      <recent name=\"com.vytrack.stepDefs\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"JUnit.CukesRunner\">\n    <configuration name=\"Scenario: On Vehicles Page a User should see Grid Settings on the right side of the Reset Button\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"5\" />\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/gridSettingsBtnLocation_roza.feature\" />\n      <option name=\"GLUE\" value=\"com.vytrack.stepDefs\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.cucumber.core.cli.Main\" />\n      <module name=\"Vytrack\" />\n      <option name=\"NAME_FILTER\" value=\"^On Vehicles Page a User should see Grid Settings on the right side of the Reset Button$\" />\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^On Vehicles Page a User should see Grid Settings on the right side of the Reset Button$&quot;\" />\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: On Vehicles Page a User should see Grid Settings on the right side of the Reset Button\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"io.cucumber.core.cli.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"CukesRunner\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Vytrack\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.vytrack.runner.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.vytrack.runner\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.vytrack.runner.CukesRunner\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"Cucumber Java.Scenario: On Vehicles Page a User should see Grid Settings on the right side of the Reset Button\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n        <item itemvalue=\"JUnit.CukesRunner\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"bb635949-698d-4cb6-a1d4-16b34aef126a\" name=\"Changes\" comment=\"\" />\n      <created>1657059175197</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1657059175197</updated>\n      <workItem from=\"1657059176517\" duration=\"1538000\" />\n      <workItem from=\"1657074669992\" duration=\"8319000\" />\n      <workItem from=\"1657197235212\" duration=\"1486000\" />\n      <workItem from=\"1657484873132\" duration=\"2441000\" />\n      <workItem from=\"1657581167425\" duration=\"3811000\" />\n      <workItem from=\"1657710984363\" duration=\"7571000\" />\n      <workItem from=\"1657804344411\" duration=\"4638000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Added Pages and locators, Login Util, config page\">\n      <created>1657105518152</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1657105518152</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"roza\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Added Pages and locators, Login Util, config page\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added Pages and locators, Login Util, config page\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,9 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="bb635949-698d-4cb6-a1d4-16b34aef126a" name="Changes" comment="Added new util class to directly login to Vehicles page and added my part">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-    </list>
++    <list default="true" id="bb635949-698d-4cb6-a1d4-16b34aef126a" name="Changes" comment="Added new util class to directly login to Vehicles page and added my part" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -119,7 +117,7 @@
+       <workItem from="1657484873132" duration="2441000" />
+       <workItem from="1657581167425" duration="3811000" />
+       <workItem from="1657710984363" duration="7571000" />
+-      <workItem from="1657804344411" duration="4638000" />
++      <workItem from="1657804344411" duration="5017000" />
+     </task>
+     <task id="LOCAL-00001" summary="Added Pages and locators, Login Util, config page">
+       <created>1657105518152</created>
+@@ -128,7 +126,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1657105518152</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Added new util class to directly login to Vehicles page and added my part">
++      <created>1657830750339</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1657830750339</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -159,6 +164,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Added Pages and locators, Login Util, config page" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Added Pages and locators, Login Util, config page" />
++    <MESSAGE value="Added new util class to directly login to Vehicles page and added my part" />
++    <option name="LAST_COMMIT_MESSAGE" value="Added new util class to directly login to Vehicles page and added my part" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/test/java/com/vytrack/stepDefs/GridSettingsStepDefs.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.vytrack.stepDefs;\n\nimport com.vytrack.pages.VehiclesPage;\nimport com.vytrack.utilities.VehiclesPageLogin;\nimport io.cucumber.java.en.Given;\nimport io.cucumber.java.en.Then;\n\npublic class GridSettingsStepDefs {\n    @Given(\"user is on Vehicle page\")\n    public void user_is_on_vehicle_page() {\n        VehiclesPageLogin.vehiclesPageLogin();\n\n\n    }\n    @Then(\"user should be able to click Grid Settings button\")\n    public void user_should_be_able_to_click_grid_settings_button(String string) {\n        VehiclesPage vehiclesPage = new VehiclesPage();\n        VehiclesPage.gridSettingsIcon.click();\n\n\n\n    }\n\n}\n
+===================================================================
+diff --git a/src/test/java/com/vytrack/stepDefs/GridSettingsStepDefs.java b/src/test/java/com/vytrack/stepDefs/GridSettingsStepDefs.java
+--- a/src/test/java/com/vytrack/stepDefs/GridSettingsStepDefs.java	
++++ b/src/test/java/com/vytrack/stepDefs/GridSettingsStepDefs.java	
+@@ -1,7 +1,6 @@
+ package com.vytrack.stepDefs;
+ 
+ import com.vytrack.pages.VehiclesPage;
+-import com.vytrack.utilities.VehiclesPageLogin;
+ import io.cucumber.java.en.Given;
+ import io.cucumber.java.en.Then;
+ 
