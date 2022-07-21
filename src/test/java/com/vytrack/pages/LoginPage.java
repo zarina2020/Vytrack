@@ -26,11 +26,11 @@ public class LoginPage {
     private WebElement loginBtn;
 
     public void vytrackLogin(String userName, String passWord) {
-        Driver.getDriver().get(ConfigurationReader.getProperty("vytrack"));
+       // Driver.getDriver().get(ConfigurationReader.getProperty("vytrack"));
 
-        username.sendKeys(ConfigurationReader.getProperty(userName));
+        username.sendKeys(userName);
 
-        password.sendKeys(ConfigurationReader.getProperty(passWord));
+        password.sendKeys(passWord);
 
         loginBtn.click();
 
