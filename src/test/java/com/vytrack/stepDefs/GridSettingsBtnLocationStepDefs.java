@@ -31,11 +31,6 @@ public class GridSettingsBtnLocationStepDefs {
 
         Assert.assertTrue(reset.getX() < gridSet.getX());
 
-        System.out.println("helllo");
-
-
-
-
     }
 
 

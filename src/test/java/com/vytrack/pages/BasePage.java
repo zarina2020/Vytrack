@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class BasePage {
+public class BasePage extends LoginPage{
 
     public BasePage() {
         PageFactory.initElements(Driver.getDriver(), this);
@@ -34,6 +34,19 @@ public class BasePage {
     @FindBy(xpath = "//span[.='Vehicles']")
     public WebElement vehicles;
 
+    @FindBy(xpath = "//li[@id='user-menu']/a")
+    public WebElement displayedUserName;
+
+    @FindBy(xpath = "//a[.='Logout']")
+    public WebElement logOutBtn;
+
+//    @FindBy (css = "div[class='loader-mask shown']")
+//    public WebElement loaderMask;
+
+    public void logOut(){
+        displayedUserName.click();
+        logOutBtn.click();
+    }
 
 
 }
