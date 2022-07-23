@@ -15,7 +15,7 @@ public class GridSettingsBtnLocationStepDefs {
 
     @Given("User is on the Vehicles page,")
     public void user_is_on_the_vehicles_page() {
-        vehiclesPage.vehiclesPageLogin("driver","driverPassword");
+        vehiclesPage.vehiclesPageLogin("driver","Password");
 
     }
     @When("User should see Grid Settings on the right side of the Reset Button")
