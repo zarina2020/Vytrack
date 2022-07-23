@@ -27,12 +27,12 @@ public class VehiclesPage {
     public WebElement gridSettingsIcon;
 
     @Test
-    public void vehiclesPageLogin(String username, String password) {
+    public void vehiclesPageLogin(String userName, String passWord) {
 
         LoginPage loginPage = new LoginPage();
         BasePage basePage = new BasePage();
 
-        loginPage.vytrackLogin(username, password);
+        loginPage.vytrackLogin("driver","Password");
 
         HoverOverUtilClass.hoverOver(basePage.fleetDropDown);
         basePage.vehicles.click();
