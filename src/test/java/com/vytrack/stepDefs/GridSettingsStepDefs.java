@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class GridSettingsStepDefs {
 
     VehiclesPage vehiclesPage = new VehiclesPage();
+
     @Given("user is on Vehicle page")
     public void user_is_on_vehicle_page() {
         vehiclesPage.vehiclesPageLogin("driver", "Password");
@@ -26,6 +27,8 @@ public class GridSettingsStepDefs {
 
         wait.until(ExpectedConditions.visibilityOf(vehiclesPage.gridSettingsIcon));
         vehiclesPage.gridSettingsIcon.click();
+
+        Assert.assertTrue(vehiclesPage.gridSettingsIcon.isSelected());
 
 
 
