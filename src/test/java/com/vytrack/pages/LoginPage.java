@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.lang.module.Configuration;
+
 public class LoginPage {
 
     public LoginPage() {
@@ -17,7 +19,7 @@ public class LoginPage {
     private WebElement username;
 
     @FindBy(id = "prependedInput2")
-    private WebElement password;
+    public WebElement password;
 
     @FindBy(className = "custom-checkbox__text")
     private WebElement rememberMeCheckBox;
@@ -26,11 +28,11 @@ public class LoginPage {
     private WebElement loginBtn;
 
     public void vytrackLogin(String userName, String passWord) {
-       // Driver.getDriver().get(ConfigurationReader.getProperty("vytrack"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("vytrack"));
 
-        username.sendKeys(userName);
+        username.sendKeys(ConfigurationReader.getProperty("driver"));
 
-        password.sendKeys(passWord);
+        password.sendKeys(ConfigurationReader.getProperty("Password"));
 
         loginBtn.click();
 
