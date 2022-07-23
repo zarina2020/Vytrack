@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class VehiclesPage {
 
@@ -33,7 +35,8 @@ public class VehiclesPage {
         BasePage basePage = new BasePage();
 
         loginPage.vytrackLogin("driver","Password");
-
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
+        wait.until(ExpectedConditions.visibilityOf(basePage.fleetDropDown));
         HoverOverUtilClass.hoverOver(basePage.fleetDropDown);
         basePage.vehicles.click();
 
