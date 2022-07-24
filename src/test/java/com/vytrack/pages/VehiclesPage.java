@@ -28,6 +28,13 @@ public class VehiclesPage {
     @FindBy(xpath = "//a[@title='Grid Settings']")
     public WebElement gridSettingsIcon;
 
+    @FindBy(xpath = "//span[.='Use drag and drop to sort items']")
+    public WebElement GridSettingsText;
+
+    @FindBy(xpath = "//a[@title='CSV']")
+    public WebElement CSVlink;
+
+
     @Test
     public void vehiclesPageLogin(String userName, String passWord) {
 
