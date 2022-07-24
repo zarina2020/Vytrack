@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/vytrack/stepDefs",
         dryRun = false,
-        tags = "@Nataliia"
+        tags = "@B26G31-48"
         //monochrome = true
 
 )
