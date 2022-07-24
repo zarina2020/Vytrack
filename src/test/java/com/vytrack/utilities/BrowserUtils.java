@@ -55,4 +55,17 @@ public class BrowserUtils {
         wait.until(ExpectedConditions.invisibilityOf(element));
     }
 
+    public static List<String> getElementsText(List<WebElement> elements){
+
+        List<String> elementsText = new ArrayList<>();
+
+        for (WebElement eachElement : elements) {
+
+            elementsText.add(eachElement.getText());
+        }
+
+        return elementsText;
+
+    }
+
 }
